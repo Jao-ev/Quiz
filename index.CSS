@@ -1,0 +1,130 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+h2 {
+    color: #2980b9;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Seções */
+section {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+/* Formulários */
+form {
+    margin: 20px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+    color: black; /* Cor do texto das caixas de entrada */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #2980b9;
+    outline: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #bdc3c7;
+}
+
+th {
+    background-color: #2980b9;
+    color: white;
+}
+
+tfoot td {
+    font-weight: bold;
+    background-color: #ecf0f1;
+}
+
+/* Botões */
+button {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #219653;
+}
+
+/* Detalhes */
+details {
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+summary {
+    cursor: pointer;
+}
+
+/* Imagens */
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+figcaption {
+    font-size: 0.9em;
+    color: #7f8c8d;
+}
